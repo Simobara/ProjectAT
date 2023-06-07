@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import NavbarMain from "./Components/Navbar/navbar";
+// import NavbarThree from "./Components/Navbar/navbarThree";
+// import NavbarFive from "./Components/Navbar/navbarFive";
+// import Home from './Components/Home/home';
+// import NuovoAnnuncio from './Components/NuovoAnnuncio/nuovoAnnuncio';
+// import AggiungiAzienda from './Components/AggiungiAzienda/aggiungiAzienda';
+// import NavbarOne from './Components/Navbar/ComponentOne/navbarOne';
+// import { Navbar } from './Components/Navbar/ComponentTwo';
+// import NavbarCompThree from './Components/Navbar/ComponentThree/NavbarCompThree';
+import NavbarSeven from "./Components/Navbar/ComponentSeven/NavbarSeven";
+// import NavbarFive from './Components/Navbar/NavbarFive/navbarFive';
+// import NavbarEight from "./Components/Navbar/ComponentEight/navbarEight";
+// import NavbarTen from './Components/Navbar/ComponentTen/NavbarTen';
+import Footer from "./Components/Footer/footer";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <NavbarMain /> */}
+      {/* <NavbarThree /> */}
+      {/* <NavbarOne /> */}
+      <NavbarSeven />
+      {/* <NavbarFive /> */}
+      {/* <NavbarEight /> */}
+      {/* <NavbarTen /> */}
+      <Footer />
+    </>
   );
 }
 

@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-do
 import logo from "../../../Assets/Images/main.png";
 import './navbarFive.css'
 
-import Home from '../../Home/home';
+import Home from '../../Home/Home';
 import NuovoAnnuncio from '../../NuovoAnnuncio/nuovoAnnuncio';
 import AggiungiAzienda from '../../AggiungiAzienda/aggiungiAzienda';
 import NotFoundPage from '../../NotFoundPage/notFoundPage';

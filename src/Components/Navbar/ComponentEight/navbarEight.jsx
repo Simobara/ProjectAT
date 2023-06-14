@@ -14,7 +14,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import logo from "../../../Assets/Images/main.png";
 
-import Home from '../../Home/home';
+import Home from '../../Home/Home';
 import NuovoAnnuncio from '../../NuovoAnnuncio/nuovoAnnuncio';
 import AggiungiAzienda from '../../AggiungiAzienda/aggiungiAzienda';
 import NotFoundPage from '../../NotFoundPage/notFoundPage';

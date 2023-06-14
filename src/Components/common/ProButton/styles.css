@@ -1,0 +1,13 @@
+.page-btn{
+    border: 0;
+    background-color: #4396d0;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.page-btn:hover{
+    background-color: #579ccd;
+}

@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './NavbarSeven.css';
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
-
 import Home from '../../Home/Home'
 import NuovoAnnuncio from '../../NuovoAnnuncio/nuovoAnnuncio';
 import ContactUs from '../../ContactUs/contactUs'

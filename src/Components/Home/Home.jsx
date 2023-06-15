@@ -3,7 +3,7 @@ import { tableColumn } from "./MainTable/Columns";
 import Table from "./Table/Table";
 import "./home.css";
 import AddNewRecordForm from "./AddNewRecord/AddNewRecord";
-import { newData } from "../../store/newData";
+import { newData } from "../../Data/newData";
 
 // import { dummy } from "../../store/TableData";
 // import {
